@@ -1,5 +1,5 @@
 import java.util.Stack;
-
+i changed
 public class substring {
     static int bal(String str, int x, int y) {
         Stack<Character> stack = new Stack<>();
