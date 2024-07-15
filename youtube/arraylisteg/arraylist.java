@@ -15,5 +15,9 @@ public class arraylist {
         //     System.out.println(food.get(i));
             
         // }
+        for (String string : food) {
+            System.out.println(string);
+            
+        }
     }
 }
