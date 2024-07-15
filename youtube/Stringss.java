@@ -2,7 +2,7 @@ package youtube;
 
 public class Stringss {
     public static void main(String[] args) {
-        String name = "Sam";
+        //String name = "Sam";
         // boolean result =name.equals("Samjoshua");
         // char result=name.charAt(0);
 
