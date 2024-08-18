@@ -12,6 +12,7 @@ public class SortArrayNoOfTimes {
             num[end] = temp;
             start++;
             end--;
+            
         }
     }
 
