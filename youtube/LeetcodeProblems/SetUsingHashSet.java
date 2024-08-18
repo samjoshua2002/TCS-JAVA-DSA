@@ -2,7 +2,8 @@ package youtube.LeetcodeProblems;
 
 import java.util.HashSet;
 import java.util.Scanner;
-
+// input [1 2 3 4]= true no duplicate
+//input [1 2 3 1]= false contains duplicate
 public class SetUsingHashSet {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

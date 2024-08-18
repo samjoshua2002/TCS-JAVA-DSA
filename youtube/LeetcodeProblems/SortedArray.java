@@ -1,6 +1,8 @@
 package youtube.LeetcodeProblems;
 
 import java.util.Scanner;
+// input [1 1 2 2 2 3 3 3 3 3 4 4]
+//output [1 2 3 4]=> no of elements four so the answer is  4
 
 public class SortedArray {
     public static void main(String[] args) {

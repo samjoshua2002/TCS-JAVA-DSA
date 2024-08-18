@@ -1,7 +1,9 @@
 package youtube.LeetcodeProblems;
 
 import java.util.Scanner;
-
+//input [1 2 3 4 5 6 7 ] k =3  three times need to right shift
+//steps followed reverse the string 
+//reverse with help of k the term [7 6 5 4 3 2 1] k=3  so  => [5 6 7 4 3 2 1] =>[5 6 7 1 2 3 4 ]
 public class SortArrayNoOfTimes {
     public static void reverse(int[] num, int start, int end) {
         while (start < end) {
