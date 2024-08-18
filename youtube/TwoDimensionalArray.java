@@ -66,7 +66,7 @@ public class TwoDimensionalArray {
 
 
         
-        
+        sc.close();
 
     }
     
