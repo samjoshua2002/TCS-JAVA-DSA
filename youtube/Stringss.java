@@ -2,13 +2,15 @@ package youtube;
 
 public class Stringss {
     public static void main(String[] args) {
-        //String name = "Sam";
+        String name = "Samj";
         // boolean result =name.equals("Samjoshua");
-        // char result=name.charAt(0);
+        
+        //  char result=name.charAt(0);
+        //  System.out.println(result);
 
         // find the index of the element
-        // int index = name.indexOf("j");
-        // System.out.println(index);
+         int index = name.indexOf("j");
+         System.out.println(index);
 
         // boolean result = name.isEmpty();
         // String result=name.toLowerCase();
