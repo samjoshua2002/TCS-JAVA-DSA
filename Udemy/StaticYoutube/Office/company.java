@@ -1,4 +1,4 @@
-package youtube.StaticYoutube.Office;
+package Udemy.StaticYoutube.Office;
 
 public class company {
     public static void main(String[] args) {

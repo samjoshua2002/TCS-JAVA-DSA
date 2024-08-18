@@ -1,4 +1,4 @@
-package youtube.StaticYoutube;
+package Udemy.StaticYoutube;
 
 public class Main {
     public static void main(String[] args) {

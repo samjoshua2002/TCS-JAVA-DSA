@@ -1,4 +1,4 @@
-package youtube.StaticYoutube;
+package Udemy.StaticYoutube;
 
 public class Cat {
     private static int count =0;

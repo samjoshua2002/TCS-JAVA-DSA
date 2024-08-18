@@ -1,4 +1,4 @@
-package youtube.LeetcodeProblems;
+package Udemy.LeetcodeProblems;
 
 import java.util.HashSet;
 import java.util.Scanner;

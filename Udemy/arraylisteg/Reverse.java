@@ -1,4 +1,4 @@
-package youtube.arraylisteg;
+package Udemy.arraylisteg;
 
 import java.util.Scanner;
 

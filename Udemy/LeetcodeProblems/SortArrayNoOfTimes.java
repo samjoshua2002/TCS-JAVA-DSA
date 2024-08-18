@@ -1,4 +1,4 @@
-package youtube.LeetcodeProblems;
+package Udemy.LeetcodeProblems;
 
 import java.util.Scanner;
 //input [1 2 3 4 5 6 7 ] k =3  three times need to right shift

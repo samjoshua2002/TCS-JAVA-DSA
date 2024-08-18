@@ -1,4 +1,4 @@
-package youtube.LeetcodeProblems;
+package Udemy.LeetcodeProblems;
 
 import java.util.Scanner;
 // input [1 1 2 2 2 3 3 3 3 3 4 4]

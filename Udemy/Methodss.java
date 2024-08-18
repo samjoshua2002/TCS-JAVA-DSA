@@ -1,4 +1,4 @@
-package youtube;
+package Udemy;
 
 public class Methodss {
     static void hello(String n){
