@@ -18,7 +18,7 @@ public class WeightCalculator {
             weight += 4;
         }
 
-        // Check if the number is even
+        
         if (num % 2 == 0) {
             weight += 3;
         }
@@ -27,6 +27,7 @@ public class WeightCalculator {
     }
 
     public static void main(String[] args) {
+        
         int[] numbers = {10, 36, 54, 89, 12};
         List<int[]> weightedNumbers = new ArrayList<>();
 
