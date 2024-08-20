@@ -31,10 +31,10 @@ public class WeightCalculator {
         int[] numbers = {10, 36, 54, 89, 12};
         List<int[]> weightedNumbers = new ArrayList<>();
 
-        // Calculate the weight for each number and store in the list
+        
         for (int num : numbers) {
             int weight = calculateWeight(num);
-            weightedNumbers.add(new int[]{num, weight});
+            weightedNumbers.add( new int[]{num, weight});
         }
 
         // Sort the list based on the weight (index 1 of the array)
