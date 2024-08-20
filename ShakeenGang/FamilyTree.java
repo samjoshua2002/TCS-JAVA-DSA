@@ -21,6 +21,7 @@ public class FamilyTree {
 
             // Add the child to the father's list of children
             childrenMap.computeIfAbsent(father, k -> new HashSet<>()).add(child);
+            
         }
 
         // Specify the person to find grandchildren for
