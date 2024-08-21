@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ShakeenGang.Main",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
             "name": "TwoSum",
             "request": "launch",
             "mainClass": "ShakeenGang.TwoSum",
