@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "ShakeenGang.TwoSum",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "ReverseTheString",
+            "request": "launch",
+            "mainClass": "ShakeenGang.ReverseTheString",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
