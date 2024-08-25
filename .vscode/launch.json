@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ba",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.Ba",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "BasicSyntaxExample",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.BasicSyntaxExample",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
             "name": "HashMapExample",
             "request": "launch",
             "mainClass": "ShakeenGang.HashMapExample",
