@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "join",
+            "request": "launch",
+            "mainClass": "concepts.join",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "concepts.demo",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "ConceptsFrRevision.Operators",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "ControlFlowExample",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.ControlFlowExample",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.Operators",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "OperatorsExample",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.OperatorsExample",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
             "name": "Ba",
             "request": "launch",
             "mainClass": "ConceptsForRevision.Ba",

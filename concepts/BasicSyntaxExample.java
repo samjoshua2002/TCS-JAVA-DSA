@@ -1,4 +1,4 @@
-package ConceptsForRevision;
+package concepts;
 
 
 
@@ -26,7 +26,7 @@ class BasicSyntaxExample {
         System.out.println("Name: " + name);
         System.out.println("Scores: ");
         for (int score : scores) {
-            System.out.println(score);
+            System.out.print(score+" ");
         }
     }
 }

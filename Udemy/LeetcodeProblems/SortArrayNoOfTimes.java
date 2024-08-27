@@ -1,5 +1,6 @@
 package Udemy.LeetcodeProblems;
 
+import java.util.Arrays;
 import java.util.Scanner;
 //input [1 2 3 4 5 6 7 ] k =3  three times need to right shift
 //steps followed reverse the string 
@@ -21,6 +22,7 @@ public class SortArrayNoOfTimes {
         System.out.println("Enter the list of numbers separated by spaces:");
         String result = scanner.nextLine();
         String[] array = result.split(" ");
+        System.out.println("The array you typed"+Arrays.toString(array));
         int[] arr = new int[array.length];
         for (int i = 0; i < array.length; i++) {
             arr[i] = Integer.parseInt(array[i]);
