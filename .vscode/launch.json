@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maximumDepthOfBinaryTree",
+            "request": "launch",
+            "mainClass": "maximumDepthOfBinaryTree",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "TrainTicket.Main",
