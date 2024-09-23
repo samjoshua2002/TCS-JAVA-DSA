@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "buyStock",
+            "request": "launch",
+            "mainClass": "buyStock",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "oddOrEven",
+            "request": "launch",
+            "mainClass": "oddOrEven",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
             "name": "maximumDepthOfBinaryTree",
             "request": "launch",
             "mainClass": "maximumDepthOfBinaryTree",
