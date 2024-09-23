@@ -1,6 +1,6 @@
 package concepts;
 
-class ControlFlowExample {
+class ConditionalStatements {
     public static void main(String[] args) {
         // 1. if-else Statement
         int number = 10;

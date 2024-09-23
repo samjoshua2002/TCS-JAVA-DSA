@@ -1,5 +1,5 @@
 public class heapsort   {
-    public int[] sort(int arr[]) {
+    public int[] sort(int[] arr) {
         int n = arr.length;
 
         // Build heap (rearrange array)
@@ -22,7 +22,7 @@ public class heapsort   {
 
     // To heapify a subtree rooted with node i which is an index in arr[].
     // n is the size of the heap
-    void heapify(int arr[], int n, int i) {
+    void heapify(int[] arr, int n, int i) {
         int largest = i; // Initialize largest as root
         int left = 2 * i + 1; // left = 2*i + 1
         int right = 2 * i + 2; // right = 2*i + 2

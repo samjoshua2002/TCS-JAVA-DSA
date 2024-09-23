@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "TrainTicket.Main",
-            "projectName": "TCS JAVA DSA_cebfdceb"
-        },
-        {
-            "type": "java",
             "name": "join",
             "request": "launch",
             "mainClass": "concepts.join",

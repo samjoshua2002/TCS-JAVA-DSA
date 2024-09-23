@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class arraylist {
     public static void main(String[] args) {
-        ArrayList<String> food =new ArrayList<String>();
-        food.add("dosa");
+        ArrayList<String> food =new ArrayList<>();
+        food.add("dos");
         food.add("idly");
-        food.add("chappati");
+        food.add("chapati");
         food.set(2, "sushi");
         //food.remove(2);
         //food.clear();
