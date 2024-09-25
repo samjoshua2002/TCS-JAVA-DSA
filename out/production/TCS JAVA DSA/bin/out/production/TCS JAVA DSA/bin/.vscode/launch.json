@@ -1,0 +1,497 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "greensjava.demo",
+            "projectName": "TCS JAVA DSA"
+        },
+        {
+            "type": "java",
+            "name": "Sanjay",
+            "request": "launch",
+            "mainClass": "sample.Sanjay",
+            "projectName": "TCS JAVA DSA"
+        },
+        {
+            "type": "java",
+            "name": "demmmmm",
+            "request": "launch",
+            "mainClass": "sample.demmmmm",
+            "projectName": "TCS JAVA DSA"
+        },
+        {
+            "type": "java",
+            "name": "demo2",
+            "request": "launch",
+            "mainClass": "sample.demo2",
+            "projectName": "TCS JAVA DSA"
+        },
+        {
+            "type": "java",
+            "name": "buyStock",
+            "request": "launch",
+            "mainClass": "buyStock",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "oddOrEven",
+            "request": "launch",
+            "mainClass": "oddOrEven",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "maximumDepthOfBinaryTree",
+            "request": "launch",
+            "mainClass": "maximumDepthOfBinaryTree",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "TrainTicket.Main",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "join",
+            "request": "launch",
+            "mainClass": "concepts.join",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "concepts.demo",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "ConceptsFrRevision.Operators",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "ControlFlowExample",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.ControlFlowExample",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.Operators",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "OperatorsExample",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.OperatorsExample",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Ba",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.Ba",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "BasicSyntaxExample",
+            "request": "launch",
+            "mainClass": "ConceptsForRevision.BasicSyntaxExample",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "HashMapExample",
+            "request": "launch",
+            "mainClass": "ShakeenGang.HashMapExample",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ShakeenGang.Main",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "ShakeenGang.TwoSum",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "ReverseTheString",
+            "request": "launch",
+            "mainClass": "ShakeenGang.ReverseTheString",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Coin",
+            "request": "launch",
+            "mainClass": "Coin",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "HashMapEx",
+            "request": "launch",
+            "mainClass": "HashMapEx",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "RobotCollision",
+            "request": "launch",
+            "mainClass": "RobotCollision",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Adjacant",
+            "request": "launch",
+            "mainClass": "ShakeenGang.Adjacant",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "FamilyTree",
+            "request": "launch",
+            "mainClass": "ShakeenGang.FamilyTree",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "GapAddition",
+            "request": "launch",
+            "mainClass": "ShakeenGang.GapAddition",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "InBetweenNumber",
+            "request": "launch",
+            "mainClass": "ShakeenGang.InBetweenNumber",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "OddLetterPattern",
+            "request": "launch",
+            "mainClass": "ShakeenGang.OddLetterPattern",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "WeightCalculator",
+            "request": "launch",
+            "mainClass": "ShakeenGang.WeightCalculator",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "SubArrayFinder",
+            "request": "launch",
+            "mainClass": "SubArrayFinder",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "InputOutput",
+            "request": "launch",
+            "mainClass": "Udemy.InputOutput",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToSell",
+            "request": "launch",
+            "mainClass": "Udemy.LeetcodeProblems.BestTimeToSell",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "SetUsingHashSet",
+            "request": "launch",
+            "mainClass": "Udemy.LeetcodeProblems.SetUsingHashSet",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "SortArrayNoOfTimes",
+            "request": "launch",
+            "mainClass": "Udemy.LeetcodeProblems.SortArrayNoOfTimes",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "SortedArray",
+            "request": "launch",
+            "mainClass": "Udemy.LeetcodeProblems.SortedArray",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "XORoperator_FindNotDuplicateInTheArray",
+            "request": "launch",
+            "mainClass": "Udemy.LeetcodeProblems.XORoperator_FindNotDuplicateInTheArray",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Methodss",
+            "request": "launch",
+            "mainClass": "Udemy.Methodss",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "StackJava",
+            "request": "launch",
+            "mainClass": "Udemy.StackJava",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Udemy.StaticYoutube.Main",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "company",
+            "request": "launch",
+            "mainClass": "Udemy.StaticYoutube.Office.company",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Stringss",
+            "request": "launch",
+            "mainClass": "Udemy.Stringss",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "Udemy.TwoDimensionalArray",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "UserdefinedList",
+            "request": "launch",
+            "mainClass": "Udemy.UserdefinedList",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Udemy.arraylisteg.Reverse",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "TwoDArrayList",
+            "request": "launch",
+            "mainClass": "Udemy.arraylisteg.TwoDArrayList",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "arraylist",
+            "request": "launch",
+            "mainClass": "Udemy.arraylisteg.arraylist",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "arrays",
+            "request": "launch",
+            "mainClass": "Udemy.arrays",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "equals",
+            "request": "launch",
+            "mainClass": "Udemy.equals",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "formatspecifier",
+            "request": "launch",
+            "mainClass": "Udemy.formatspecifier",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "maths",
+            "request": "launch",
+            "mainClass": "Udemy.maths",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "overloaded",
+            "request": "launch",
+            "mainClass": "Udemy.overloaded",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "panel",
+            "request": "launch",
+            "mainClass": "Udemy.panel",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "random",
+            "request": "launch",
+            "mainClass": "Udemy.random",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "bintodecimal",
+            "request": "launch",
+            "mainClass": "bintodecimal",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sort",
+            "request": "launch",
+            "mainClass": "bubble_sort",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "countways",
+            "request": "launch",
+            "mainClass": "countways",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "deathtrap",
+            "request": "launch",
+            "mainClass": "deathtrap",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "empSys",
+            "request": "launch",
+            "mainClass": "empSys",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "heapsort",
+            "request": "launch",
+            "mainClass": "heapsort",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "list",
+            "request": "launch",
+            "mainClass": "list",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "my_queue",
+            "request": "launch",
+            "mainClass": "my_queue",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "paranthesis",
+            "request": "launch",
+            "mainClass": "paranthesis",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "permutation",
+            "request": "launch",
+            "mainClass": "permutation",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "postfix",
+            "request": "launch",
+            "mainClass": "postfix",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "sample",
+            "request": "launch",
+            "mainClass": "sample",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "selectionsort",
+            "request": "launch",
+            "mainClass": "selectionsort",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "staircase",
+            "request": "launch",
+            "mainClass": "staircase",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        },
+        {
+            "type": "java",
+            "name": "substring",
+            "request": "launch",
+            "mainClass": "substring",
+            "projectName": "TCS JAVA DSA_cebfdceb"
+        }
+    ]
+}
