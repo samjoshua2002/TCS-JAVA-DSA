@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "greensjava.demo",
+            "projectName": "TCS JAVA DSA"
+        },
+        {
+            "type": "java",
+            "name": "Sanjay",
+            "request": "launch",
+            "mainClass": "sample.Sanjay",
+            "projectName": "TCS JAVA DSA"
+        },
+        {
+            "type": "java",
+            "name": "demmmmm",
+            "request": "launch",
+            "mainClass": "sample.demmmmm",
+            "projectName": "TCS JAVA DSA"
+        },
+        {
+            "type": "java",
+            "name": "demo2",
+            "request": "launch",
+            "mainClass": "sample.demo2",
+            "projectName": "TCS JAVA DSA"
+        },
+        {
+            "type": "java",
             "name": "buyStock",
             "request": "launch",
             "mainClass": "buyStock",
