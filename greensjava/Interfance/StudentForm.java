@@ -2,11 +2,9 @@ package greensjava.Interfance;
 
 import java.util.Scanner;
 
-
 interface StudentDetails {
     void inputDetails(); 
     void displayDetails(); 
-     
 }
 
 class Student implements StudentDetails {
@@ -17,7 +15,8 @@ class Student implements StudentDetails {
 
     @Override
     public void inputDetails() {
-        Scanner sc = new Scanner(System.in);
+        // Keep using the same Scanner object; don't close it here.
+        Scanner sc = new Scanner(System.in); 
         System.out.print("Enter name of the student: ");
         name = sc.nextLine();
         System.out.print("Enter the age of the student: ");
@@ -28,7 +27,6 @@ class Student implements StudentDetails {
         sc.nextLine();  
         System.out.print("Enter the address of the student: ");
         address = sc.nextLine();
-        sc.close();
     }
 
     @Override
@@ -37,36 +35,31 @@ class Student implements StudentDetails {
         System.out.println("Age: " + age);
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Address: " + address);
-
-
         System.out.println();
     }
 }
 
-
 public class StudentForm {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
         System.out.print("Enter the number of students: ");
         int numStudents = sc.nextInt();
         sc.nextLine(); 
 
-       
         Student[] students = new Student[numStudents];
 
-        
         for (int i = 0; i < numStudents; i++) {
             System.out.println("\nEnter details for Student " + (i + 1) + ":");
             students[i] = new Student();
             students[i].inputDetails();
         }
 
-        
         System.out.println("\nDisplaying all student details:");
         for (int i = 0; i < numStudents; i++) {
             System.out.println("Details of Student " + (i + 1) + ":");
             students[i].displayDetails();
         }
-        sc.close();
+
+        sc.close();  
     }
 }

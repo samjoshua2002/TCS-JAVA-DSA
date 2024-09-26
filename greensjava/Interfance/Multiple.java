@@ -9,10 +9,12 @@ interface Mom {
     public void ShowMomDetails();
 }
 class Family implements Dad,Mom {
+    @Override
     public void ShowDadDetails(){
         System.out.println("Father's Name: John");
         System.out.println("Father's Occupation: Engineer");
     }
+    @Override
     public void ShowMomDetails(){
         System.out.println("Mother's Name: Jane");
         System.out.println("Mother's Occupation: Doctor");

@@ -8,11 +8,13 @@ interface BankSalary {
 
 class AxisBank implements BankSalary {
     
+    @Override
     public void salary() {
         System.out.println("Axis Bank salary");
     }
 
    
+    @Override
     public void amount() {
         System.out.println("Axis Bank amount");
     }
@@ -21,11 +23,12 @@ class AxisBank implements BankSalary {
 // SBI class implements Bank
 class SBI implements BankSalary {
    
+    @Override
     public void salary() {
         System.out.println("SBI salary");
     }
 
-    
+    @Override
     public void amount() {
         System.out.println("SBI amount");
     }

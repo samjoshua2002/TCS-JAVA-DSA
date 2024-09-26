@@ -102,27 +102,19 @@ public class empSys {
       sc.nextLine(); // Consume the leftover newline
 
       switch (choice) {
-        case 1:
-          list.add(addEmp());
-          break;
-        case 2:
-          deleteEmp();
-          break;
-        case 3:
-          editEmp();
-          break;
-        case 4:
-          System.out.println("List of Employees: ");
-          printEmp();
-          break;
-        case 5:
-          System.out.println("Exiting the program.");
-          sc.close();
-          System.exit(0); // terminate the program
-          break;
-        default:
-          System.out.println("Wrong choice");
-          break;
+        case 1 -> list.add(addEmp());
+        case 2 -> deleteEmp();
+        case 3 -> editEmp();
+        case 4 -> {
+            System.out.println("List of Employees: ");
+            printEmp();
+            }
+        case 5 -> {
+            System.out.println("Exiting the program.");
+            sc.close();
+            System.exit(0); // terminate the program
+            }
+        default -> System.out.println("Wrong choice");
       }
     }
   }
