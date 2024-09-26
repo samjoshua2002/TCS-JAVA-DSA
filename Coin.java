@@ -15,6 +15,8 @@ public class Coin {
         boolean possible = true;
         int five = 0, ten = 0;
 
+        
+
         for (int bills : arr) {
             if (bills == 5) {
                 five++;
