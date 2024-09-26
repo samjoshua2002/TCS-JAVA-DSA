@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 interface StudentDetails {
     void inputDetails(); 
-    void displayDetails();  
+    void displayDetails(); 
+     
 }
 
 class Student implements StudentDetails {
