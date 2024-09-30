@@ -14,11 +14,11 @@ class TicketBooker {
     static List<Integer> bookedTicketList = new ArrayList<>(); // list of booked tickets
 
     // Available positions in berths, RAC, and WL
-    static List<Integer> lowerBerthsPositions = new ArrayList<>(Arrays.asList(1));  // normally 1 to 21
-    static List<Integer> middleBerthsPositions = new ArrayList<>(Arrays.asList(1)); // normally 1 to 21
-    static List<Integer> upperBerthsPositions = new ArrayList<>(Arrays.asList(1));  // normally 1 to 21
-    static List<Integer> racPositions = new ArrayList<>(Arrays.asList(1));          // normally 1 to 18
-    static List<Integer> waitingListPositions = new ArrayList<>(Arrays.asList(1));  // normally 1 to 10
+    static List<Integer> lowerBerthsPositions = new ArrayList<>(List.of(1));  // normally 1 to 21
+    static List<Integer> middleBerthsPositions = new ArrayList<>(List.of(1)); // normally 1 to 21
+    static List<Integer> upperBerthsPositions = new ArrayList<>(List.of(1));  // normally 1 to 21
+    static List<Integer> racPositions = new ArrayList<>(List.of(1));          // normally 1 to 18
+    static List<Integer> waitingListPositions = new ArrayList<>(List.of(1));  // normally 1 to 10
 
     static Map<Integer, Passenger> passengers = new HashMap<>(); // map of passenger IDs to passengers
 
@@ -38,7 +38,7 @@ class TicketBooker {
         passengers.put(p.passengerId, p); // Store passenger
         racList.add(p.passengerId); // Add to RAC queue
         availableRacTickets--; // Decrease RAC availability
-        racPositions.remove(0); // Remove the assigned RAC position
+        racPositions.removeFirst(); // Remove the assigned RAC position
         System.out.println("--------------------------Added to RAC Successfully");
     }
 
@@ -49,7 +49,7 @@ class TicketBooker {
         passengers.put(p.passengerId, p); // Store passenger
         waitingList.add(p.passengerId); // Add to Waiting List queue
         availableWaitingList--; // Decrease WL availability
-        waitingListPositions.remove(0); // Remove the assigned WL position
+        waitingListPositions.removeFirst(); // Remove the assigned WL position
         System.out.println("--------------------------Added to Waiting List Successfully");
     }
 
@@ -99,9 +99,9 @@ class TicketBooker {
                 waitingListPositions.add(positionWL);
                 waitingList.remove(passengerFromWaitingList.passengerId);
 
-                passengerFromWaitingList.number = racPositions.get(0);
+                passengerFromWaitingList.number = racPositions.getFirst();
                 passengerFromWaitingList.allotted = "RAC";
-                racPositions.remove(0);
+                racPositions.removeFirst();
                 racList.add(passengerFromWaitingList.passengerId);
 
                 availableWaitingList++;
@@ -176,20 +176,20 @@ public class Mains {
             switch (p.berthPreference) {
                 case "L" -> {
                     System.out.println("Lower Berth Given");
-                    booker.bookTicket(p, TicketBooker.lowerBerthsPositions.get(0), "L");
-                    TicketBooker.lowerBerthsPositions.remove(0);
+                    booker.bookTicket(p, TicketBooker.lowerBerthsPositions.getFirst(), "L");
+                    TicketBooker.lowerBerthsPositions.removeFirst();
                     TicketBooker.availableLowerBerths--;
                 }
                 case "M" -> {
                     System.out.println("Middle Berth Given");
-                    booker.bookTicket(p, TicketBooker.middleBerthsPositions.get(0), "M");
-                    TicketBooker.middleBerthsPositions.remove(0);
+                    booker.bookTicket(p, TicketBooker.middleBerthsPositions.getFirst(), "M");
+                    TicketBooker.middleBerthsPositions.removeFirst();
                     TicketBooker.availableMiddleBerths--;
                 }
                 case "U" -> {
                     System.out.println("Upper Berth Given");
-                    booker.bookTicket(p, TicketBooker.upperBerthsPositions.get(0), "U");
-                    TicketBooker.upperBerthsPositions.remove(0);
+                    booker.bookTicket(p, TicketBooker.upperBerthsPositions.getFirst(), "U");
+                    TicketBooker.upperBerthsPositions.removeFirst();
                     TicketBooker.availableUpperBerths--;
                 }
                 default -> {
@@ -197,25 +197,25 @@ public class Mains {
             }
         } else if (TicketBooker.availableLowerBerths > 0) {
             System.out.println("Lower Berth Given");
-            booker.bookTicket(p, TicketBooker.lowerBerthsPositions.get(0), "L");
-            TicketBooker.lowerBerthsPositions.remove(0);
+            booker.bookTicket(p, TicketBooker.lowerBerthsPositions.getFirst(), "L");
+            TicketBooker.lowerBerthsPositions.removeFirst();
             TicketBooker.availableLowerBerths--;
         } else if (TicketBooker.availableMiddleBerths > 0) {
             System.out.println("Middle Berth Given");
-            booker.bookTicket(p, TicketBooker.middleBerthsPositions.get(0), "M");
-            TicketBooker.middleBerthsPositions.remove(0);
+            booker.bookTicket(p, TicketBooker.middleBerthsPositions.getFirst(), "M");
+            TicketBooker.middleBerthsPositions.removeFirst();
             TicketBooker.availableMiddleBerths--;
         } else if (TicketBooker.availableUpperBerths > 0) {
             System.out.println("Upper Berth Given");
-            booker.bookTicket(p, TicketBooker.upperBerthsPositions.get(0), "U");
-            TicketBooker.upperBerthsPositions.remove(0);
+            booker.bookTicket(p, TicketBooker.upperBerthsPositions.getFirst(), "U");
+            TicketBooker.upperBerthsPositions.removeFirst();
             TicketBooker.availableUpperBerths--;
         } else if (TicketBooker.availableRacTickets > 0) {
             System.out.println("RAC Available");
-            booker.addToRAC(p, TicketBooker.racPositions.get(0), "RAC");
+            booker.addToRAC(p, TicketBooker.racPositions.getFirst(), "RAC");
         } else if (TicketBooker.availableWaitingList > 0) {
             System.out.println("Added to Waiting List");
-            booker.addToWaitingList(p, TicketBooker.waitingListPositions.get(0), "WL");
+            booker.addToWaitingList(p, TicketBooker.waitingListPositions.getFirst(), "WL");
         }
     }
 

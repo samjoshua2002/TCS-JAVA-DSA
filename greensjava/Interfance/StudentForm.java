@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 interface StudentDetails {
     void inputDetails(); 
-    void displayDetails(); 
+    void displayDetails();
+
 }
 
 class Student implements StudentDetails {
@@ -41,10 +42,10 @@ class Student implements StudentDetails {
 
 public class StudentForm {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); 
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of students: ");
         int numStudents = sc.nextInt();
-        sc.nextLine(); 
+        sc.nextLine();
 
         Student[] students = new Student[numStudents];
 
@@ -60,6 +61,6 @@ public class StudentForm {
             students[i].displayDetails();
         }
 
-        sc.close();  
+        sc.close();
     }
 }

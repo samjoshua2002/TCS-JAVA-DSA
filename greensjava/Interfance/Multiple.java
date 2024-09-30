@@ -2,6 +2,7 @@ package greensjava.Interfance;
 
 interface Dad  {
     public void ShowDadDetails();
+  
 
     
 }
