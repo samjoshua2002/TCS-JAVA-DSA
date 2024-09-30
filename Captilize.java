@@ -1,4 +1,5 @@
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Captilize {
@@ -18,7 +19,7 @@ public class Captilize {
             
             
         }
-        // System.out.println(c.TO());
+        System.out.println(Arrays.toString(c));
         
     }
     
