@@ -1,5 +1,5 @@
 package greensjava.DayFour.PrimitiveDataTypes;
-public class Main {
+public class Datatypes {
     public static void main(String[] args) {
         byte age = 127;
         System.out.println("Age: " + age);
