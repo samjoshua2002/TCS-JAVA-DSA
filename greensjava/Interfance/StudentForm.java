@@ -17,6 +17,7 @@ class Student implements StudentDetails {
     @Override
     public void inputDetails() {
         // Keep using the same Scanner object; don't close it here.
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in); 
         System.out.print("Enter name of the student: ");
         name = sc.nextLine();
@@ -37,6 +38,7 @@ class Student implements StudentDetails {
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Address: " + address);
         System.out.println();
+        
     }
 }
 
