@@ -9,6 +9,7 @@ public class ConversionsExample {
         String str = "Hello, World!";
         char[] charArray = str.toCharArray();
         System.out.print("String to char[]: ");
+
         for (char c : charArray) {
             System.out.print(c + " ");
         }

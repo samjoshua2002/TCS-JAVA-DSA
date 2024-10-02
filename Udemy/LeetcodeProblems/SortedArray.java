@@ -24,6 +24,7 @@ public class SortedArray {
             }
             
         }
+
         System.out.println(u+1);
         // for (int i : arr) {
         //     System.out.print(i+ " ");
