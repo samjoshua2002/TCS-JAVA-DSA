@@ -8,14 +8,13 @@ public class Factorial {
         System.out.println("Enter the Number:");
         int n = sc.nextInt();
         long mul = 1;
-        while(n > 0) {
+        while (n > 0) {
             mul *= n;
             n--;
         }
         System.out.println(mul);
 
     }
-
 
 
 }
