@@ -16,7 +16,7 @@ public class staircase {
         System.out.println(increment(s));
     }
 }
-/*
+/*+
  public class staircase {
     // nth element
     static int fib(int n) {
