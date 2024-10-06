@@ -2,11 +2,12 @@ package greensjava.Test;
 
 import java.util.HashSet;
 import java.util.Scanner;
+import java.util.TreeSet;
 
 public class PalindromeArray {
 
-    public static HashSet<Integer> findreverse(int digit) {
-        HashSet<Integer> arr = new HashSet<>();
+    public static TreeSet<Integer> findreverse(int digit) {
+        TreeSet<Integer> arr = new TreeSet<>();
         int originalDigit = digit;
         int rem = 0;
 
@@ -28,7 +29,7 @@ public class PalindromeArray {
         System.out.println("Enter the limit of numbers to find the palindrome: ");
         int limit = sc.nextInt();
 
-        HashSet<Integer> palindromes = new HashSet<>();
+        TreeSet<Integer> palindromes = new TreeSet<>();
 
         for (int i = 1; i <= limit; i++) {
             palindromes.addAll(findreverse(i));
