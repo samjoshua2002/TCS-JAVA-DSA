@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class Palindrome {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
+
         Scanner sc = new Scanner(System.in);
         String s= sc.nextLine();
         // String reverse = new StringBuilder(s).reverse().toString();
