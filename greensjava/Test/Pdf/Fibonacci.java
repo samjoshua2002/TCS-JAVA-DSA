@@ -1,5 +1,6 @@
 package greensjava.Test.Pdf;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -12,6 +13,7 @@ public class Fibonacci {
 
 
         }
+        System.out.println(Arrays.toString(arr));
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number to find the fibonacci series: ");
         int a = sc.nextInt();

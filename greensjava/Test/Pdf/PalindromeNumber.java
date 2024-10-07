@@ -28,6 +28,6 @@ public class PalindromeNumber {
             palindrome.addAll(reverse(i));
 
         }
-        System.out.println(palindrome.size());
+        System.out.println(palindrome);
     }
 }

@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class ConsecutiveNumbers {
     public static void main(String[] args) {
-        int[] array ={100 ,200,3,4,5,1,2};
+        int[] array ={100,4,200,1,3,2};
         HashSet<Integer> set=new HashSet<>();
         for (int i : array)
             set.add(i);
@@ -15,6 +15,7 @@ public class ConsecutiveNumbers {
             while (set.contains(array[i])){
                 array[i]+=1;
                 currentmax+=1;
+
 
 
             }

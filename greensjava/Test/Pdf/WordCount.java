@@ -9,8 +9,9 @@ public class WordCount {
         String[] arr = s.split(" ");
         Map<String, Integer> map = new HashMap<>();
         for (String a : arr){
-            if (!map.containsKey(a))map.put(a,0);
-            map.put(a, map.get(a) + 1);
+//            if (!map.containsKey(a))map.put(a,0);
+//            map.put(a, map.get(a) + 1);
+            map.put(a,map.getOrDefault(a,0) + 1);
 
         }
         System.out.println(map);
