@@ -3,7 +3,7 @@ package greensjava.DayFive;
 public class Comparision {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        
         int number = 10;
         System.out.println("if-else Statement:");
         if (number > 0) {

@@ -8,5 +8,6 @@ public class bintodecimal {
 
         // Output the result
         System.out.println(decimalNumber);
+        
     }
 }
