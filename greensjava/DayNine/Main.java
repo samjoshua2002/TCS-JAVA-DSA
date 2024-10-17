@@ -56,16 +56,8 @@ class  topics{
 
 
     }
-    public static void TreeSetEg(){
-        TreeSet<Integer> tree = new TreeSet<>();
-        tree.add(10);
-        tree.add(9);
-        tree.add(8);
-        tree.add(7);
-        tree.add(6);
-        tree.add(5);
-        System.out.println(tree);
-    }
+    
+    
     public void TreeMapEg(){
         Map <String,String> maps = new TreeMap<>();
         maps.put("Sam","a+");
@@ -83,6 +75,16 @@ class  topics{
 }
 
 public class Main {
+    public static void TreeSetEg(){
+        TreeSet<Integer> tree = new TreeSet<>();
+        tree.add(10);
+        tree.add(9);
+        tree.add(8);
+        tree.add(7);
+        tree.add(6);
+        tree.add(5);
+        System.out.println(tree);
+    }
     public static void main(String[] args) {
         topics t = new topics();
         System.out.println("ArrayList examples:");
@@ -95,7 +97,7 @@ public class Main {
         topics.Hashset();
         System.out.println();
         System.out.println("TreeSet examples:");
-        topics.TreeSetEg();
+        TreeSetEg();
         System.out.println();
         System.out.println("HashMap examples:");
         t.Map();
