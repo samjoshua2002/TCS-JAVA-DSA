@@ -18,6 +18,11 @@ abstract class StudentDetails {
     
 }
 class details extends StudentDetails{
+
+
+
+
+    
     public void inputdetails(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter name of the student: ");
