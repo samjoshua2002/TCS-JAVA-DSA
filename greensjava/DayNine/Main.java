@@ -90,6 +90,7 @@ public class Main {
         System.out.println("ArrayList examples:");
         System.out.println();
         t.Arraylist();
+        
         System.out.println("LinkedList examples:");
         topics.Linkedlisteg();
         System.out.println();

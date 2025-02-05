@@ -67,6 +67,7 @@ public class Frequency {
 
        
         System.out.println("Top " + k + " most frequent elements: " + Arrays.toString(results));
+        sc.close();
     }
    
         

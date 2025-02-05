@@ -1,4 +1,4 @@
-package Test;
+
 
 public class Diamonds {
     public static void main(String[] args) {

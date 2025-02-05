@@ -1,4 +1,5 @@
-package Test;
+
+
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 /**
  * Frequency
  */
-public class Frequency {
+public class FrequencyTest {
 
     public static void main(String[] args) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -41,6 +42,6 @@ public class Frequency {
             
         }
 
-        
+       sc.close(); 
     }
 }

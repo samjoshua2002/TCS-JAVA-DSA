@@ -1,4 +1,4 @@
-package Test;
+
 
 import java.util.Scanner;
 
@@ -18,6 +18,7 @@ public class foreach {
             System.out.print(i+ " ");
             
         }
+        sc.close();
     }
     
 }
