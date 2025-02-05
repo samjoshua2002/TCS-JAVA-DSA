@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 
 public class StringPalindrome {
@@ -10,6 +8,7 @@ public class StringPalindrome {
         String reverse = new StringBuilder(str).reverse().toString();
         System.out.println((reverse.equals(str)?"Its palindrome":"Its not a palindrome"));
         sc.close();
+
     }
     
 }
